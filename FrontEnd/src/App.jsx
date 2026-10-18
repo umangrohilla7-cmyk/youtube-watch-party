@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import io from 'socket.io-client';
 import YouTube from 'react-youtube';
 
-const BACKEND_URL = 'http://localhost:4000';
+const BACKEND_URL = 'https://youtube-watch-party-b51f.onrender.com';
 
 export default function App() {
   const [joined, setJoined] = useState(false);
